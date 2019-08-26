@@ -12,7 +12,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
         for (int i = 0; i < RUN_TIMES; i++) {
             String input = new GuessInputCommand().input();
-            System.out.println(input);
+            //input 1234;
+            //step 0  1234->列表/数组   "1234".toCharArray();
+            //step 1 统计相同的数字；
+            //step 2 统计相同数字并且为之相同；
+            System.out.println("游戏结束");
         }
     }
 }
